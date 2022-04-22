@@ -120,6 +120,7 @@ class _HomeState extends State<Home> {
                       Slider(min:80 ,value: height,max:250 , onChanged: (value){setState(() {
 
                       }); height = value;})
+                    ,
                     ],
                   ),
                 ),
